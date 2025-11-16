@@ -61,7 +61,7 @@ while True:
         break
     # Save
     if cv.waitKey(1) & 0xFF == ord('s'):
-        cv.imwrite("out2.png", combined_3)
+        cv.imwrite("out3.png", combined_3)
         print("Image saved as saved_output.png")
  
 # When everything done, release the capture
