@@ -22,7 +22,7 @@ while True:
         gray_blur, 255,
         cv.ADAPTIVE_THRESH_MEAN_C,
         cv.THRESH_BINARY,
-        blockSize=9,
+        blockSize=7,
         C=3
     )
     # Display the resulting frame
